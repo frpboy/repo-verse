@@ -1,0 +1,45 @@
+name: Update Universe
+
+on:
+  schedule:
+    # Run every 12 hours
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+    inputs:
+      username:
+        description: 'GitHub Username'
+        required: false
+        default: 'torvalds'
+  push:
+    branches:
+      - main
+
+jobs:
+  update-universe:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate Universe SVG
+        run: npx tsx scripts/generate.ts ${{ github.event.inputs.username || 'torvalds' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and Push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update universe svg [skip ci]"
+          file_pattern: "public/universe.svg"

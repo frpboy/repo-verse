@@ -1,0 +1,572 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="sunGradient">
+      <stop offset="0%" stop-color="#FDB813" />
+      <stop offset="80%" stop-color="#F5821F" />
+      <stop offset="100%" stop-color="rgba(245, 130, 31, 0)" />
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="hudGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(0,0,0,0)" />
+      <stop offset="10%" stop-color="rgba(0,20,40,0.8)" />
+      <stop offset="90%" stop-color="rgba(0,20,40,0.8)" />
+      <stop offset="100%" stop-color="rgba(0,0,0,0)" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#030014" />
+  
+  <!-- Stars -->
+  <circle cx="100" cy="100" r="1" fill="white" opacity="0.5" />
+  <circle cx="500" cy="200" r="1.5" fill="white" opacity="0.7" />
+  <circle cx="700" cy="500" r="1" fill="white" opacity="0.4" />
+  <circle cx="200" cy="400" r="2" fill="white" opacity="0.6" />
+  <circle cx="600" cy="100" r="1" fill="white" opacity="0.5" />
+  <circle cx="50" cy="550" r="1.5" fill="white" opacity="0.8" />
+  <circle cx="750" cy="50" r="1" fill="white" opacity="0.6" />
+
+  <!-- Sun -->
+  <g filter="url(#glow)">
+    <circle cx="400" cy="300" r="40" fill="url(#sunGradient)">
+      <animate attributeName="r" values="40;42;40" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <image href="https://avatars.githubusercontent.com/u/1024025?v=4" x="360" y="260" height="80" width="80" clip-path="circle(40px at center)" opacity="0.8" />
+  </g>
+  
+  <!-- User Name -->
+  <text x="400" y="360" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Linus Torvalds</text>
+  <text x="400" y="375" text-anchor="middle" fill="#aaa" font-family="Arial, sans-serif" font-size="10">@torvalds</text>
+
+  <!-- Planets -->
+  
+      <!-- Planet: linux -->
+      <a href="https://github.com/torvalds/linux" target="_blank" style="cursor: pointer;">
+        <g>
+          <!-- Orbit Path -->
+          <circle cx="400" cy="300" r="120" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+          
+          <!-- Orbiting Group -->
+          <g>
+            <animateTransform 
+              attributeName="transform" 
+              type="rotate" 
+              from="0 400 300" 
+              to="360 400 300" 
+              dur="31.25s" 
+              repeatCount="indefinite" 
+            />
+            
+            <!-- Planet Body -->
+            <circle cx="520" cy="300" r="60" fill="#808080">
+               <title>linux (C)</title>
+            </circle>
+            
+            <!-- Texture/Overlay -->
+            
+              <ellipse cx="520" cy="300" rx="84" ry="24" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2" transform="rotate(-15, 520, 300)" />
+            
+            
+            <!-- Mood Glow -->
+            <circle cx="520" cy="300" r="60" fill="none" stroke="#FFD700" stroke-width="2" opacity="0.6">
+              <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite" />
+            </circle>
+
+            <!-- Active Indicator (Ring when HUD is showing this planet) -->
+            <circle cx="520" cy="300" r="68" fill="none" stroke="white" stroke-width="2" stroke-dasharray="4 4" opacity="0">
+               <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0;0.1111111111111111;1" dur="36s" repeatCount="indefinite" />
+               <animateTransform attributeName="transform" type="rotate" from="0 520 300" to="360 520 300" dur="10s" repeatCount="indefinite" />
+            </circle>
+          </g>
+        </g>
+      </a>
+    
+
+      <!-- Planet: uemacs -->
+      <a href="https://github.com/torvalds/uemacs" target="_blank" style="cursor: pointer;">
+        <g>
+          <!-- Orbit Path -->
+          <circle cx="400" cy="300" r="180" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+          
+          <!-- Orbiting Group -->
+          <g>
+            <animateTransform 
+              attributeName="transform" 
+              type="rotate" 
+              from="0 400 300" 
+              to="360 400 300" 
+              dur="26.31578947368421s" 
+              repeatCount="indefinite" 
+            />
+            
+            <!-- Planet Body -->
+            <circle cx="580" cy="300" r="38.246656731129335" fill="#808080">
+               <title>uemacs (C)</title>
+            </circle>
+            
+            <!-- Texture/Overlay -->
+            
+              <ellipse cx="580" cy="300" rx="53.54531942358106" ry="15.298662692451735" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2" transform="rotate(-15, 580, 300)" />
+            
+            
+            <!-- Mood Glow -->
+            <circle cx="580" cy="300" r="38.246656731129335" fill="none" stroke="#FFD700" stroke-width="2" opacity="0.6">
+              <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite" />
+            </circle>
+
+            <!-- Active Indicator (Ring when HUD is showing this planet) -->
+            <circle cx="580" cy="300" r="46.246656731129335" fill="none" stroke="white" stroke-width="2" stroke-dasharray="4 4" opacity="0">
+               <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1111111111111111;0.2222222222222222;1" dur="36s" repeatCount="indefinite" />
+               <animateTransform attributeName="transform" type="rotate" from="0 580 300" to="360 580 300" dur="10s" repeatCount="indefinite" />
+            </circle>
+          </g>
+        </g>
+      </a>
+    
+
+      <!-- Planet: GuitarPedal -->
+      <a href="https://github.com/torvalds/GuitarPedal" target="_blank" style="cursor: pointer;">
+        <g>
+          <!-- Orbit Path -->
+          <circle cx="400" cy="300" r="240" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+          
+          <!-- Orbiting Group -->
+          <g>
+            <animateTransform 
+              attributeName="transform" 
+              type="rotate" 
+              from="0 400 300" 
+              to="360 400 300" 
+              dur="22.727272727272727s" 
+              repeatCount="indefinite" 
+            />
+            
+            <!-- Planet Body -->
+            <circle cx="640" cy="300" r="45.052707355084436" fill="#808080">
+               <title>GuitarPedal (OpenSCAD)</title>
+            </circle>
+            
+            <!-- Texture/Overlay -->
+            
+            
+            <!-- Mood Glow -->
+            <circle cx="640" cy="300" r="45.052707355084436" fill="none" stroke="#FFD700" stroke-width="2" opacity="0.6">
+              <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite" />
+            </circle>
+
+            <!-- Active Indicator (Ring when HUD is showing this planet) -->
+            <circle cx="640" cy="300" r="53.052707355084436" fill="none" stroke="white" stroke-width="2" stroke-dasharray="4 4" opacity="0">
+               <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2222222222222222;0.3333333333333333;1" dur="36s" repeatCount="indefinite" />
+               <animateTransform attributeName="transform" type="rotate" from="0 640 300" to="360 640 300" dur="10s" repeatCount="indefinite" />
+            </circle>
+          </g>
+        </g>
+      </a>
+    
+
+      <!-- Planet: test-tlb -->
+      <a href="https://github.com/torvalds/test-tlb" target="_blank" style="cursor: pointer;">
+        <g>
+          <!-- Orbit Path -->
+          <circle cx="400" cy="300" r="300" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+          
+          <!-- Orbiting Group -->
+          <g>
+            <animateTransform 
+              attributeName="transform" 
+              type="rotate" 
+              from="0 400 300" 
+              to="360 400 300" 
+              dur="20s" 
+              repeatCount="indefinite" 
+            />
+            
+            <!-- Planet Body -->
+            <circle cx="700" cy="300" r="28.83331693749932" fill="#808080">
+               <title>test-tlb (C)</title>
+            </circle>
+            
+            <!-- Texture/Overlay -->
+            
+              <ellipse cx="700" cy="300" rx="40.36664371249904" ry="11.533326774999729" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2" transform="rotate(-15, 700, 300)" />
+            
+            
+            <!-- Mood Glow -->
+            <circle cx="700" cy="300" r="28.83331693749932" fill="none" stroke="#FFD700" stroke-width="2" opacity="0.6">
+              <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite" />
+            </circle>
+
+            <!-- Active Indicator (Ring when HUD is showing this planet) -->
+            <circle cx="700" cy="300" r="36.83331693749932" fill="none" stroke="white" stroke-width="2" stroke-dasharray="4 4" opacity="0">
+               <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.3333333333333333;0.4444444444444444;1" dur="36s" repeatCount="indefinite" />
+               <animateTransform attributeName="transform" type="rotate" from="0 700 300" to="360 700 300" dur="10s" repeatCount="indefinite" />
+            </circle>
+          </g>
+        </g>
+      </a>
+    
+
+      <!-- Planet: pesconvert -->
+      <a href="https://github.com/torvalds/pesconvert" target="_blank" style="cursor: pointer;">
+        <g>
+          <!-- Orbit Path -->
+          <circle cx="400" cy="300" r="360" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+          
+          <!-- Orbiting Group -->
+          <g>
+            <animateTransform 
+              attributeName="transform" 
+              type="rotate" 
+              from="0 400 300" 
+              to="360 400 300" 
+              dur="17.857142857142858s" 
+              repeatCount="indefinite" 
+            />
+            
+            <!-- Planet Body -->
+            <circle cx="760" cy="300" r="28.49964003216865" fill="#808080">
+               <title>pesconvert (C)</title>
+            </circle>
+            
+            <!-- Texture/Overlay -->
+            
+              <ellipse cx="760" cy="300" rx="39.89949604503611" ry="11.39985601286746" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2" transform="rotate(-15, 760, 300)" />
+            
+            
+            <!-- Mood Glow -->
+            <circle cx="760" cy="300" r="28.49964003216865" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.6">
+              <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite" />
+            </circle>
+
+            <!-- Active Indicator (Ring when HUD is showing this planet) -->
+            <circle cx="760" cy="300" r="36.49964003216865" fill="none" stroke="white" stroke-width="2" stroke-dasharray="4 4" opacity="0">
+               <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.4444444444444444;0.5555555555555556;1" dur="36s" repeatCount="indefinite" />
+               <animateTransform attributeName="transform" type="rotate" from="0 760 300" to="360 760 300" dur="10s" repeatCount="indefinite" />
+            </circle>
+          </g>
+        </g>
+      </a>
+    
+
+      <!-- Planet: 1590A -->
+      <a href="https://github.com/torvalds/1590A" target="_blank" style="cursor: pointer;">
+        <g>
+          <!-- Orbit Path -->
+          <circle cx="400" cy="300" r="420" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+          
+          <!-- Orbiting Group -->
+          <g>
+            <animateTransform 
+              attributeName="transform" 
+              type="rotate" 
+              from="0 400 300" 
+              to="360 400 300" 
+              dur="16.129032258064516s" 
+              repeatCount="indefinite" 
+            />
+            
+            <!-- Planet Body -->
+            <circle cx="820" cy="300" r="47.884595981137615" fill="#808080">
+               <title>1590A (OpenSCAD)</title>
+            </circle>
+            
+            <!-- Texture/Overlay -->
+            
+            
+            <!-- Mood Glow -->
+            <circle cx="820" cy="300" r="47.884595981137615" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.6">
+              <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite" />
+            </circle>
+
+            <!-- Active Indicator (Ring when HUD is showing this planet) -->
+            <circle cx="820" cy="300" r="55.884595981137615" fill="none" stroke="white" stroke-width="2" stroke-dasharray="4 4" opacity="0">
+               <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.5555555555555556;0.6666666666666666;1" dur="36s" repeatCount="indefinite" />
+               <animateTransform attributeName="transform" type="rotate" from="0 820 300" to="360 820 300" dur="10s" repeatCount="indefinite" />
+            </circle>
+          </g>
+        </g>
+      </a>
+    
+
+      <!-- Planet: subsurface-for-dirk -->
+      <a href="https://github.com/torvalds/subsurface-for-dirk" target="_blank" style="cursor: pointer;">
+        <g>
+          <!-- Orbit Path -->
+          <circle cx="400" cy="300" r="480" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+          
+          <!-- Orbiting Group -->
+          <g>
+            <animateTransform 
+              attributeName="transform" 
+              type="rotate" 
+              from="0 400 300" 
+              to="360 400 300" 
+              dur="14.705882352941176s" 
+              repeatCount="indefinite" 
+            />
+            
+            <!-- Planet Body -->
+            <circle cx="880" cy="300" r="55.86005668793387" fill="#808080">
+               <title>subsurface-for-dirk (C++)</title>
+            </circle>
+            
+            <!-- Texture/Overlay -->
+            
+              <ellipse cx="880" cy="300" rx="78.20407936310741" ry="22.344022675173548" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2" transform="rotate(-15, 880, 300)" />
+            
+            
+            <!-- Mood Glow -->
+            <circle cx="880" cy="300" r="55.86005668793387" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.6">
+              <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite" />
+            </circle>
+
+            <!-- Active Indicator (Ring when HUD is showing this planet) -->
+            <circle cx="880" cy="300" r="63.86005668793387" fill="none" stroke="white" stroke-width="2" stroke-dasharray="4 4" opacity="0">
+               <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.6666666666666666;0.7777777777777778;1" dur="36s" repeatCount="indefinite" />
+               <animateTransform attributeName="transform" type="rotate" from="0 880 300" to="360 880 300" dur="10s" repeatCount="indefinite" />
+            </circle>
+          </g>
+        </g>
+      </a>
+    
+
+      <!-- Planet: libdc-for-dirk -->
+      <a href="https://github.com/torvalds/libdc-for-dirk" target="_blank" style="cursor: pointer;">
+        <g>
+          <!-- Orbit Path -->
+          <circle cx="400" cy="300" r="540" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+          
+          <!-- Orbiting Group -->
+          <g>
+            <animateTransform 
+              attributeName="transform" 
+              type="rotate" 
+              from="0 400 300" 
+              to="360 400 300" 
+              dur="13.513513513513514s" 
+              repeatCount="indefinite" 
+            />
+            
+            <!-- Planet Body -->
+            <circle cx="940" cy="300" r="44.68292812371329" fill="#808080">
+               <title>libdc-for-dirk (C)</title>
+            </circle>
+            
+            <!-- Texture/Overlay -->
+            
+              <ellipse cx="940" cy="300" rx="62.5560993731986" ry="17.873171249485317" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2" transform="rotate(-15, 940, 300)" />
+            
+            
+            <!-- Mood Glow -->
+            <circle cx="940" cy="300" r="44.68292812371329" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.6">
+              <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite" />
+            </circle>
+
+            <!-- Active Indicator (Ring when HUD is showing this planet) -->
+            <circle cx="940" cy="300" r="52.68292812371329" fill="none" stroke="white" stroke-width="2" stroke-dasharray="4 4" opacity="0">
+               <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.7777777777777778;0.8888888888888888;1" dur="36s" repeatCount="indefinite" />
+               <animateTransform attributeName="transform" type="rotate" from="0 940 300" to="360 940 300" dur="10s" repeatCount="indefinite" />
+            </circle>
+          </g>
+        </g>
+      </a>
+    
+
+      <!-- Planet: libgit2 -->
+      <a href="https://github.com/torvalds/libgit2" target="_blank" style="cursor: pointer;">
+        <g>
+          <!-- Orbit Path -->
+          <circle cx="400" cy="300" r="600" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+          
+          <!-- Orbiting Group -->
+          <g>
+            <animateTransform 
+              attributeName="transform" 
+              type="rotate" 
+              from="0 400 300" 
+              to="360 400 300" 
+              dur="12.5s" 
+              repeatCount="indefinite" 
+            />
+            
+            <!-- Planet Body -->
+            <circle cx="1000" cy="300" r="53.141602005348" fill="#808080">
+               <title>libgit2 (C)</title>
+            </circle>
+            
+            <!-- Texture/Overlay -->
+            
+            
+            <!-- Mood Glow -->
+            <circle cx="1000" cy="300" r="53.141602005348" fill="none" stroke="#FFD700" stroke-width="2" opacity="0.6">
+              <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite" />
+            </circle>
+
+            <!-- Active Indicator (Ring when HUD is showing this planet) -->
+            <circle cx="1000" cy="300" r="61.141602005348" fill="none" stroke="white" stroke-width="2" stroke-dasharray="4 4" opacity="0">
+               <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.8888888888888888;1;1" dur="36s" repeatCount="indefinite" />
+               <animateTransform attributeName="transform" type="rotate" from="0 1000 300" to="360 1000 300" dur="10s" repeatCount="indefinite" />
+            </circle>
+          </g>
+        </g>
+      </a>
+    
+
+  <!-- HUD Panel Background -->
+  <rect x="10" y="510" width="300" height="80" fill="url(#hudGradient)" stroke="rgba(0,255,255,0.2)" stroke-width="1" rx="5" />
+  
+  <!-- HUD Content (Auto-Cycling) -->
+  
+      <g opacity="0">
+        <!-- Visibility Animation -->
+        <animate attributeName="opacity" values="1; 1; 0; 0" keyTimes="0; 0.1101111111111111; 0.1111111111111111; 1" dur="36s" repeatCount="indefinite" />
+
+        <!-- Panel Content -->
+        <text x="20" y="520" fill="#FFD700" font-family="Courier New, monospace" font-size="16" font-weight="bold">> linux</text>
+        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: C | STARS: 207509</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: HAPPY | SIZE: 5714557kb</text>
+        
+        <!-- Progress Bar -->
+        <rect x="20" y="565" width="0" height="2" fill="#FFD700">
+            <animate attributeName="width" values="0;200" begin="0s" dur="4s" fill="freeze" />
+        </rect>
+      </g>
+    
+
+      <g opacity="0">
+        <!-- Visibility Animation -->
+        <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.1111111111111111; 0.1121111111111111; 0.2212222222222222; 0.2222222222222222; 1" dur="36s" repeatCount="indefinite" />
+
+        <!-- Panel Content -->
+        <text x="20" y="520" fill="#FFD700" font-family="Courier New, monospace" font-size="16" font-weight="bold">> uemacs</text>
+        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: C | STARS: 1640</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: HAPPY | SIZE: 438kb</text>
+        
+        <!-- Progress Bar -->
+        <rect x="20" y="565" width="0" height="2" fill="#FFD700">
+            <animate attributeName="width" values="0;200" begin="4s" dur="4s" fill="freeze" />
+        </rect>
+      </g>
+    
+
+      <g opacity="0">
+        <!-- Visibility Animation -->
+        <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.2222222222222222; 0.2232222222222222; 0.3323333333333333; 0.3333333333333333; 1" dur="36s" repeatCount="indefinite" />
+
+        <!-- Panel Content -->
+        <text x="20" y="520" fill="#FFD700" font-family="Courier New, monospace" font-size="16" font-weight="bold">> GuitarPedal</text>
+        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: OpenSCAD | STARS: 1174</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: HAPPY | SIZE: 4234kb</text>
+        
+        <!-- Progress Bar -->
+        <rect x="20" y="565" width="0" height="2" fill="#FFD700">
+            <animate attributeName="width" values="0;200" begin="8s" dur="4s" fill="freeze" />
+        </rect>
+      </g>
+    
+
+      <g opacity="0">
+        <!-- Visibility Animation -->
+        <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.3333333333333333; 0.3343333333333333; 0.4434444444444444; 0.4444444444444444; 1" dur="36s" repeatCount="indefinite" />
+
+        <!-- Panel Content -->
+        <text x="20" y="520" fill="#FFD700" font-family="Courier New, monospace" font-size="16" font-weight="bold">> test-tlb</text>
+        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: C | STARS: 834</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: HAPPY | SIZE: 19kb</text>
+        
+        <!-- Progress Bar -->
+        <rect x="20" y="565" width="0" height="2" fill="#FFD700">
+            <animate attributeName="width" values="0;200" begin="12s" dur="4s" fill="freeze" />
+        </rect>
+      </g>
+    
+
+      <g opacity="0">
+        <!-- Visibility Animation -->
+        <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.4444444444444444; 0.4454444444444444; 0.5545555555555556; 0.5555555555555556; 1" dur="36s" repeatCount="indefinite" />
+
+        <!-- Panel Content -->
+        <text x="20" y="520" fill="#00FF94" font-family="Courier New, monospace" font-size="16" font-weight="bold">> pesconvert</text>
+        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: C | STARS: 455</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 17kb</text>
+        
+        <!-- Progress Bar -->
+        <rect x="20" y="565" width="0" height="2" fill="#00FF94">
+            <animate attributeName="width" values="0;200" begin="16s" dur="4s" fill="freeze" />
+        </rect>
+      </g>
+    
+
+      <g opacity="0">
+        <!-- Visibility Animation -->
+        <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.5555555555555556; 0.5565555555555556; 0.6656666666666666; 0.6666666666666666; 1" dur="36s" repeatCount="indefinite" />
+
+        <!-- Panel Content -->
+        <text x="20" y="520" fill="#FF00E6" font-family="Courier New, monospace" font-size="16" font-weight="bold">> 1590A</text>
+        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: OpenSCAD | STARS: 437</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 10882kb</text>
+        
+        <!-- Progress Bar -->
+        <rect x="20" y="565" width="0" height="2" fill="#FF00E6">
+            <animate attributeName="width" values="0;200" begin="20s" dur="4s" fill="freeze" />
+        </rect>
+      </g>
+    
+
+      <g opacity="0">
+        <!-- Visibility Animation -->
+        <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.6666666666666666; 0.6676666666666666; 0.7767777777777778; 0.7777777777777778; 1" dur="36s" repeatCount="indefinite" />
+
+        <!-- Panel Content -->
+        <text x="20" y="520" fill="#00FF94" font-family="Courier New, monospace" font-size="16" font-weight="bold">> subsurface-for-dirk</text>
+        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: C++ | STARS: 346</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 155337kb</text>
+        
+        <!-- Progress Bar -->
+        <rect x="20" y="565" width="0" height="2" fill="#00FF94">
+            <animate attributeName="width" values="0;200" begin="24s" dur="4s" fill="freeze" />
+        </rect>
+      </g>
+    
+
+      <g opacity="0">
+        <!-- Visibility Animation -->
+        <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.7777777777777778; 0.7787777777777778; 0.8878888888888888; 0.8888888888888888; 1" dur="36s" repeatCount="indefinite" />
+
+        <!-- Panel Content -->
+        <text x="20" y="520" fill="#00FF94" font-family="Courier New, monospace" font-size="16" font-weight="bold">> libdc-for-dirk</text>
+        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: C | STARS: 283</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 3743kb</text>
+        
+        <!-- Progress Bar -->
+        <rect x="20" y="565" width="0" height="2" fill="#00FF94">
+            <animate attributeName="width" values="0;200" begin="28s" dur="4s" fill="freeze" />
+        </rect>
+      </g>
+    
+
+      <g opacity="0">
+        <!-- Visibility Animation -->
+        <animate attributeName="opacity" values="0; 0; 1; 1" keyTimes="0; 0.8888888888888888; 0.8898888888888888; 1" dur="36s" repeatCount="indefinite" />
+
+        <!-- Panel Content -->
+        <text x="20" y="520" fill="#FFD700" font-family="Courier New, monospace" font-size="16" font-weight="bold">> libgit2</text>
+        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: C | STARS: 233</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: HAPPY | SIZE: 62768kb</text>
+        
+        <!-- Progress Bar -->
+        <rect x="20" y="565" width="0" height="2" fill="#FFD700">
+            <animate attributeName="width" values="0;200" begin="32s" dur="4s" fill="freeze" />
+        </rect>
+      </g>
+    
+
+  <!-- Footer -->
+  <text x="790" y="590" text-anchor="end" fill="#333" font-family="Arial, sans-serif" font-size="10">RepoVerse</text>
+</svg>
