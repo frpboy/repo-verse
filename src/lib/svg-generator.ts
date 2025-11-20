@@ -191,7 +191,7 @@ export function generateUniverseSVG(user: UserProfile, planets: PlanetData[]): s
   <rect width="100%" height="100%" fill="#030014" />
   
   <!-- Copyright Watermark -->
-  <text x="${width / 2}" y="${height / 2 + 150}" text-anchor="middle" fill="white" opacity="0.05" font-family="Arial, sans-serif" font-size="40" font-weight="bold">© ${user.name}</text>
+  <text x="${width / 2}" y="${height / 2 + 150}" text-anchor="middle" fill="white" opacity="0.1" font-family="Arial, sans-serif" font-size="40" font-weight="bold">© ${user.name}</text>
   
   <!-- Stars -->
   <circle cx="100" cy="100" r="1" fill="white" opacity="0.5" />

@@ -24,7 +24,7 @@
   <rect width="100%" height="100%" fill="#030014" />
   
   <!-- Copyright Watermark -->
-  <text x="400" y="450" text-anchor="middle" fill="white" opacity="0.05" font-family="Arial, sans-serif" font-size="40" font-weight="bold">© Nimal Danyath K</text>
+  <text x="400" y="450" text-anchor="middle" fill="white" opacity="0.1" font-family="Arial, sans-serif" font-size="40" font-weight="bold">© Nimal Danyath K</text>
   
   <!-- Stars -->
   <circle cx="100" cy="100" r="1" fill="white" opacity="0.5" />

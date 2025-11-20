@@ -14,6 +14,15 @@ RepoVerse is an AI-powered cosmic engine that visualizes your code repositories 
 *   **Cosmic HUD**: An auto-cycling sci-fi data panel showing live stats for each repo.
 *   **Zero Config**: Just fork and run.
 
+## 🧠 How Mood is Calculated
+The "mood" of each planet is determined by its repository stats:
+*   **Excited (Gold)**: > 50 stars
+*   **Happy (Green)**: > 10 stars
+*   **Active (Cyan)**: Updated in the last 30 days
+*   **Focused (Blue)**: TypeScript
+*   **Creative (Yellow)**: JavaScript
+*   **Neutral (Gray)**: Everything else
+
 ## 🚀 How to Use (For Everyone)
 
 Want this on your profile? It's easy.
