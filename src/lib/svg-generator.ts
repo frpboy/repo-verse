@@ -185,6 +185,12 @@ export function generateUniverseSVG(user: UserProfile, planets: PlanetData[]): s
       <stop offset="90%" stop-color="rgba(0,20,40,0.8)" />
       <stop offset="100%" stop-color="rgba(0,0,0,0)" />
     </linearGradient>
+    <clipPath id="sunClip">
+      <circle cx="${cx}" cy="${cy}" r="40" />
+    </clipPath>
+    <clipPath id="badgeClip">
+      <circle cx="25" cy="25" r="25" />
+    </clipPath>
   </defs>
 
   <!-- Background -->
@@ -207,7 +213,7 @@ export function generateUniverseSVG(user: UserProfile, planets: PlanetData[]): s
     <circle cx="${cx}" cy="${cy}" r="40" fill="url(#sunGradient)">
       <animate attributeName="r" values="40;42;40" dur="4s" repeatCount="indefinite" />
     </circle>
-    <image href="${user.avatarUrl}" x="${cx - 40}" y="${cy - 40}" height="80" width="80" clip-path="circle(40px at center)" opacity="0.8" />
+    <image href="${user.avatarUrl}" x="${cx - 40}" y="${cy - 40}" height="80" width="80" clip-path="url(#sunClip)" opacity="0.8" />
   </g>
   
   <!-- User Name (Center) -->
@@ -229,7 +235,7 @@ export function generateUniverseSVG(user: UserProfile, planets: PlanetData[]): s
   <!-- Top-Right User Badge -->
   <g transform="translate(${width - 70}, 20)">
     <circle cx="25" cy="25" r="27" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1" />
-    <image href="${user.avatarUrl}" x="0" y="0" height="50" width="50" clip-path="circle(25px at center)" />
+    <image href="${user.avatarUrl}" x="0" y="0" height="50" width="50" clip-path="url(#badgeClip)" />
   </g>
 </svg>
   `.trim();
