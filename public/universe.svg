@@ -46,7 +46,7 @@
     <circle cx="400" cy="300" r="40" fill="url(#sunGradient)">
       <animate attributeName="r" values="40;42;40" dur="4s" repeatCount="indefinite" />
     </circle>
-    <image href="https://avatars.githubusercontent.com/u/191676132?v=4" x="360" y="260" height="80" width="80" clip-path="url(#sunClip)" opacity="0.8" />
+    <image href="https://avatars.githubusercontent.com/u/191676132?v=4" xlink:href="https://avatars.githubusercontent.com/u/191676132?v=4" x="360" y="260" height="80" width="80" clip-path="url(#sunClip)" opacity="0.8" />
   </g>
   
   <!-- User Name (Center) -->
@@ -922,6 +922,6 @@
   <!-- Top-Right User Badge -->
   <g transform="translate(730, 20)">
     <circle cx="25" cy="25" r="27" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1" />
-    <image href="https://avatars.githubusercontent.com/u/191676132?v=4" x="0" y="0" height="50" width="50" clip-path="url(#badgeClip)" />
+    <image href="https://avatars.githubusercontent.com/u/191676132?v=4" xlink:href="https://avatars.githubusercontent.com/u/191676132?v=4" x="0" y="0" height="50" width="50" clip-path="url(#badgeClip)" />
   </g>
 </svg>
