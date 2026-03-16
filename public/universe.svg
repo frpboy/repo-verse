@@ -80,12 +80,12 @@
             />
             
             <!-- Planet Body (3D Effect) -->
-            <circle cx="520" cy="300" r="36.83938431916421" fill="url(#planetGrad-0)">
+            <circle cx="520" cy="300" r="36.91506400800124" fill="url(#planetGrad-0)">
                <title>frpboy (null)</title>
             </circle>
             
             <!-- Inner Rim Light (Atmosphere) -->
-            <circle cx="520" cy="300" r="36.83938431916421" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3">
+            <circle cx="520" cy="300" r="36.91506400800124" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3">
             </circle>
             
             <!-- Texture/Overlay -->
@@ -94,12 +94,12 @@
             
             
             <!-- Mood Glow -->
-            <circle cx="520" cy="300" r="44.20726118299705" fill="none" stroke="#FF00E6" stroke-width="1" opacity="0.4" filter="url(#glow)">
+            <circle cx="520" cy="300" r="44.29807680960148" fill="none" stroke="#FF00E6" stroke-width="1" opacity="0.4" filter="url(#glow)">
               <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite" />
             </circle>
 
             <!-- Active Indicator (Ring when HUD is showing this planet) -->
-            <circle cx="520" cy="300" r="46.83938431916421" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
+            <circle cx="520" cy="300" r="46.91506400800124" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
                <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0;0.1;1" dur="40s" repeatCount="indefinite" />
                <animateTransform attributeName="transform" type="rotate" from="0 520 300" to="360 520 300" dur="10s" repeatCount="indefinite" />
             </circle>
@@ -115,7 +115,7 @@
                   dur="31.25s" 
                   repeatCount="indefinite" 
               />
-              <text x="520" y="351.8393843191642" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
+              <text x="520" y="351.91506400800125" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
                 frpboy
               </text>
             </g>
@@ -149,12 +149,12 @@
             />
             
             <!-- Planet Body (3D Effect) -->
-            <circle cx="580" cy="300" r="46.906716652069164" fill="url(#planetGrad-1)">
+            <circle cx="580" cy="300" r="46.91815249819142" fill="url(#planetGrad-1)">
                <title>Henna-by-Chippy (TypeScript)</title>
             </circle>
             
             <!-- Inner Rim Light (Atmosphere) -->
-            <circle cx="580" cy="300" r="46.906716652069164" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3">
+            <circle cx="580" cy="300" r="46.91815249819142" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3">
             </circle>
             
             <!-- Texture/Overlay -->
@@ -163,12 +163,12 @@
             
             
             <!-- Mood Glow -->
-            <circle cx="580" cy="300" r="56.288059982483" fill="none" stroke="#00FF94" stroke-width="1" opacity="0.4" filter="url(#glow)">
+            <circle cx="580" cy="300" r="56.3017829978297" fill="none" stroke="#00FF94" stroke-width="1" opacity="0.4" filter="url(#glow)">
               <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite" />
             </circle>
 
             <!-- Active Indicator (Ring when HUD is showing this planet) -->
-            <circle cx="580" cy="300" r="56.906716652069164" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
+            <circle cx="580" cy="300" r="56.91815249819142" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
                <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.2;1" dur="40s" repeatCount="indefinite" />
                <animateTransform attributeName="transform" type="rotate" from="0 580 300" to="360 580 300" dur="10s" repeatCount="indefinite" />
             </circle>
@@ -184,7 +184,7 @@
                   dur="26.31578947368421s" 
                   repeatCount="indefinite" 
               />
-              <text x="580" y="361.9067166520692" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
+              <text x="580" y="361.91815249819143" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
                 Henna-by-Chippy
               </text>
             </g>
@@ -218,12 +218,12 @@
             />
             
             <!-- Planet Body (3D Effect) -->
-            <circle cx="640" cy="300" r="36.40418042340539" fill="url(#planetGrad-2)">
+            <circle cx="640" cy="300" r="36.429390655794535" fill="url(#planetGrad-2)">
                <title>repo-verse (TypeScript)</title>
             </circle>
             
             <!-- Inner Rim Light (Atmosphere) -->
-            <circle cx="640" cy="300" r="36.40418042340539" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3">
+            <circle cx="640" cy="300" r="36.429390655794535" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3">
             </circle>
             
             <!-- Texture/Overlay -->
@@ -232,12 +232,12 @@
             
             
             <!-- Mood Glow -->
-            <circle cx="640" cy="300" r="43.68501650808647" fill="none" stroke="#00FF94" stroke-width="1" opacity="0.4" filter="url(#glow)">
+            <circle cx="640" cy="300" r="43.71526878695344" fill="none" stroke="#00FF94" stroke-width="1" opacity="0.4" filter="url(#glow)">
               <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite" />
             </circle>
 
             <!-- Active Indicator (Ring when HUD is showing this planet) -->
-            <circle cx="640" cy="300" r="46.40418042340539" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
+            <circle cx="640" cy="300" r="46.429390655794535" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
                <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.3;1" dur="40s" repeatCount="indefinite" />
                <animateTransform attributeName="transform" type="rotate" from="0 640 300" to="360 640 300" dur="10s" repeatCount="indefinite" />
             </circle>
@@ -253,7 +253,7 @@
                   dur="22.727272727272727s" 
                   repeatCount="indefinite" 
               />
-              <text x="640" y="351.40418042340536" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
+              <text x="640" y="351.4293906557945" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
                 repo-verse
               </text>
             </g>
@@ -761,7 +761,7 @@
         <!-- Panel Content -->
         <text x="20" y="520" fill="#FF00E6" font-family="Courier New, monospace" font-size="16" font-weight="bold">> frpboy</text>
         <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: N/A | STARS: 1</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 274kb</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 281kb</text>
         
         <!-- Progress Bar -->
         <rect x="20" y="565" width="0" height="2" fill="#FF00E6">
@@ -777,7 +777,7 @@
         <!-- Panel Content -->
         <text x="20" y="520" fill="#00FF94" font-family="Courier New, monospace" font-size="16" font-weight="bold">> Henna-by-Chippy</text>
         <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: TypeScript | STARS: 0</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 7855kb</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 7885kb</text>
         
         <!-- Progress Bar -->
         <rect x="20" y="565" width="0" height="2" fill="#00FF94">
@@ -793,7 +793,7 @@
         <!-- Panel Content -->
         <text x="20" y="520" fill="#00FF94" font-family="Courier New, monospace" font-size="16" font-weight="bold">> repo-verse</text>
         <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: TypeScript | STARS: 0</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 237kb</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 239kb</text>
         
         <!-- Progress Bar -->
         <rect x="20" y="565" width="0" height="2" fill="#00FF94">
