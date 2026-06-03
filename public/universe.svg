@@ -80,12 +80,12 @@
             />
             
             <!-- Planet Body (3D Effect) -->
-            <circle cx="520" cy="300" r="40.929044211343246" fill="url(#planetGrad-0)">
+            <circle cx="520" cy="300" r="40.98454995749921" fill="url(#planetGrad-0)">
                <title>frpboy (null)</title>
             </circle>
             
             <!-- Inner Rim Light (Atmosphere) -->
-            <circle cx="520" cy="300" r="40.929044211343246" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3">
+            <circle cx="520" cy="300" r="40.98454995749921" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3">
             </circle>
             
             <!-- Texture/Overlay -->
@@ -94,12 +94,12 @@
             
             
             <!-- Mood Glow -->
-            <circle cx="520" cy="300" r="49.114853053611895" fill="none" stroke="#FF00E6" stroke-width="1" opacity="0.4" filter="url(#glow)">
+            <circle cx="520" cy="300" r="49.181459948999056" fill="none" stroke="#FF00E6" stroke-width="1" opacity="0.4" filter="url(#glow)">
               <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite" />
             </circle>
 
             <!-- Active Indicator (Ring when HUD is showing this planet) -->
-            <circle cx="520" cy="300" r="50.929044211343246" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
+            <circle cx="520" cy="300" r="50.98454995749921" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
                <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0;0.1;1" dur="40s" repeatCount="indefinite" />
                <animateTransform attributeName="transform" type="rotate" from="0 520 300" to="360 520 300" dur="10s" repeatCount="indefinite" />
             </circle>
@@ -115,7 +115,7 @@
                   dur="31.25s" 
                   repeatCount="indefinite" 
               />
-              <text x="520" y="355.92904421134324" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
+              <text x="520" y="355.9845499574992" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
                 frpboy
               </text>
             </g>
@@ -124,12 +124,12 @@
       </a>
     
 
-      <!-- Planet: repo-verse -->
-      <a href="https://github.com/frpboy/repo-verse" target="_blank" style="cursor: pointer;">
+      <!-- Planet: NahThatsFake -->
+      <a href="https://github.com/frpboy/NahThatsFake" target="_blank" style="cursor: pointer;">
         <defs>
           <radialGradient id="planetGrad-1" cx="30%" cy="30%" r="70%">
-            <stop offset="0%" stop-color="#3178C6" stop-opacity="1" />
-            <stop offset="50%" stop-color="#3178C6" stop-opacity="0.8" />
+            <stop offset="0%" stop-color="#E34F26" stop-opacity="1" />
+            <stop offset="50%" stop-color="#E34F26" stop-opacity="0.8" />
             <stop offset="100%" stop-color="#000" stop-opacity="1" />
           </radialGradient>
         </defs>
@@ -149,12 +149,12 @@
             />
             
             <!-- Planet Body (3D Effect) -->
-            <circle cx="580" cy="300" r="37.415404906749465" fill="url(#planetGrad-1)">
-               <title>repo-verse (TypeScript)</title>
+            <circle cx="580" cy="300" r="39.852208933923436" fill="url(#planetGrad-1)">
+               <title>NahThatsFake (HTML)</title>
             </circle>
             
             <!-- Inner Rim Light (Atmosphere) -->
-            <circle cx="580" cy="300" r="37.415404906749465" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3">
+            <circle cx="580" cy="300" r="39.852208933923436" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3">
             </circle>
             
             <!-- Texture/Overlay -->
@@ -163,12 +163,12 @@
             
             
             <!-- Mood Glow -->
-            <circle cx="580" cy="300" r="44.89848588809936" fill="none" stroke="#00FF94" stroke-width="1" opacity="0.4" filter="url(#glow)">
+            <circle cx="580" cy="300" r="47.82265072070812" fill="none" stroke="#FF00E6" stroke-width="1" opacity="0.4" filter="url(#glow)">
               <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite" />
             </circle>
 
             <!-- Active Indicator (Ring when HUD is showing this planet) -->
-            <circle cx="580" cy="300" r="47.415404906749465" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
+            <circle cx="580" cy="300" r="49.852208933923436" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
                <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.2;1" dur="40s" repeatCount="indefinite" />
                <animateTransform attributeName="transform" type="rotate" from="0 580 300" to="360 580 300" dur="10s" repeatCount="indefinite" />
             </circle>
@@ -184,8 +184,8 @@
                   dur="26.31578947368421s" 
                   repeatCount="indefinite" 
               />
-              <text x="580" y="352.4154049067495" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
-                repo-verse
+              <text x="580" y="354.8522089339234" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
+                NahThatsFake
               </text>
             </g>
           </g>
@@ -193,8 +193,8 @@
       </a>
     
 
-      <!-- Planet: sahakar-celebrations -->
-      <a href="https://github.com/frpboy/sahakar-celebrations" target="_blank" style="cursor: pointer;">
+      <!-- Planet: repo-verse -->
+      <a href="https://github.com/frpboy/repo-verse" target="_blank" style="cursor: pointer;">
         <defs>
           <radialGradient id="planetGrad-2" cx="30%" cy="30%" r="70%">
             <stop offset="0%" stop-color="#3178C6" stop-opacity="1" />
@@ -218,28 +218,26 @@
             />
             
             <!-- Planet Body (3D Effect) -->
-            <circle cx="640" cy="300" r="51.18823376011389" fill="url(#planetGrad-2)">
-               <title>sahakar-celebrations (TypeScript)</title>
+            <circle cx="640" cy="300" r="37.09128045951621" fill="url(#planetGrad-2)">
+               <title>repo-verse (TypeScript)</title>
             </circle>
             
             <!-- Inner Rim Light (Atmosphere) -->
-            <circle cx="640" cy="300" r="51.18823376011389" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3">
+            <circle cx="640" cy="300" r="37.09128045951621" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3">
             </circle>
             
             <!-- Texture/Overlay -->
             
             
             
-               <path d="M635 295 L645 305 M642 292 L638 302" stroke="rgba(0,0,0,0.3)" stroke-width="1" />
-            
             
             <!-- Mood Glow -->
-            <circle cx="640" cy="300" r="61.425880512136665" fill="none" stroke="#00FF94" stroke-width="1" opacity="0.4" filter="url(#glow)">
+            <circle cx="640" cy="300" r="44.50953655141945" fill="none" stroke="#00FF94" stroke-width="1" opacity="0.4" filter="url(#glow)">
               <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite" />
             </circle>
 
             <!-- Active Indicator (Ring when HUD is showing this planet) -->
-            <circle cx="640" cy="300" r="61.18823376011389" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
+            <circle cx="640" cy="300" r="47.09128045951621" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
                <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.3;1" dur="40s" repeatCount="indefinite" />
                <animateTransform attributeName="transform" type="rotate" from="0 640 300" to="360 640 300" dur="10s" repeatCount="indefinite" />
             </circle>
@@ -255,8 +253,8 @@
                   dur="22.727272727272727s" 
                   repeatCount="indefinite" 
               />
-              <text x="640" y="366.1882337601139" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
-                sahakar-celebrations
+              <text x="640" y="352.0912804595162" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
+                repo-verse
               </text>
             </g>
           </g>
@@ -264,8 +262,8 @@
       </a>
     
 
-      <!-- Planet: shabin-weds-sana -->
-      <a href="https://github.com/frpboy/shabin-weds-sana" target="_blank" style="cursor: pointer;">
+      <!-- Planet: sahakar-celebrations -->
+      <a href="https://github.com/frpboy/sahakar-celebrations" target="_blank" style="cursor: pointer;">
         <defs>
           <radialGradient id="planetGrad-3" cx="30%" cy="30%" r="70%">
             <stop offset="0%" stop-color="#3178C6" stop-opacity="1" />
@@ -289,12 +287,12 @@
             />
             
             <!-- Planet Body (3D Effect) -->
-            <circle cx="700" cy="300" r="52.32923416311522" fill="url(#planetGrad-3)">
-               <title>shabin-weds-sana (TypeScript)</title>
+            <circle cx="700" cy="300" r="51.18823376011389" fill="url(#planetGrad-3)">
+               <title>sahakar-celebrations (TypeScript)</title>
             </circle>
             
             <!-- Inner Rim Light (Atmosphere) -->
-            <circle cx="700" cy="300" r="52.32923416311522" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3">
+            <circle cx="700" cy="300" r="51.18823376011389" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3">
             </circle>
             
             <!-- Texture/Overlay -->
@@ -305,12 +303,12 @@
             
             
             <!-- Mood Glow -->
-            <circle cx="700" cy="300" r="62.79508099573826" fill="none" stroke="#00FF94" stroke-width="1" opacity="0.4" filter="url(#glow)">
+            <circle cx="700" cy="300" r="61.425880512136665" fill="none" stroke="#00FF94" stroke-width="1" opacity="0.4" filter="url(#glow)">
               <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite" />
             </circle>
 
             <!-- Active Indicator (Ring when HUD is showing this planet) -->
-            <circle cx="700" cy="300" r="62.32923416311522" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
+            <circle cx="700" cy="300" r="61.18823376011389" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
                <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.3;0.4;1" dur="40s" repeatCount="indefinite" />
                <animateTransform attributeName="transform" type="rotate" from="0 700 300" to="360 700 300" dur="10s" repeatCount="indefinite" />
             </circle>
@@ -326,8 +324,8 @@
                   dur="20s" 
                   repeatCount="indefinite" 
               />
-              <text x="700" y="367.3292341631152" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
-                shabin-weds-sana
+              <text x="700" y="366.1882337601139" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
+                sahakar-celebrations
               </text>
             </g>
           </g>
@@ -335,8 +333,8 @@
       </a>
     
 
-      <!-- Planet: sameer-weds-nihala -->
-      <a href="https://github.com/frpboy/sameer-weds-nihala" target="_blank" style="cursor: pointer;">
+      <!-- Planet: shabin-weds-sana -->
+      <a href="https://github.com/frpboy/shabin-weds-sana" target="_blank" style="cursor: pointer;">
         <defs>
           <radialGradient id="planetGrad-4" cx="30%" cy="30%" r="70%">
             <stop offset="0%" stop-color="#3178C6" stop-opacity="1" />
@@ -360,12 +358,12 @@
             />
             
             <!-- Planet Body (3D Effect) -->
-            <circle cx="760" cy="300" r="49.823794750610475" fill="url(#planetGrad-4)">
-               <title>sameer-weds-nihala (TypeScript)</title>
+            <circle cx="760" cy="300" r="52.32923416311522" fill="url(#planetGrad-4)">
+               <title>shabin-weds-sana (TypeScript)</title>
             </circle>
             
             <!-- Inner Rim Light (Atmosphere) -->
-            <circle cx="760" cy="300" r="49.823794750610475" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3">
+            <circle cx="760" cy="300" r="52.32923416311522" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3">
             </circle>
             
             <!-- Texture/Overlay -->
@@ -376,12 +374,12 @@
             
             
             <!-- Mood Glow -->
-            <circle cx="760" cy="300" r="59.788553700732564" fill="none" stroke="#00FF94" stroke-width="1" opacity="0.4" filter="url(#glow)">
+            <circle cx="760" cy="300" r="62.79508099573826" fill="none" stroke="#00FF94" stroke-width="1" opacity="0.4" filter="url(#glow)">
               <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite" />
             </circle>
 
             <!-- Active Indicator (Ring when HUD is showing this planet) -->
-            <circle cx="760" cy="300" r="59.823794750610475" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
+            <circle cx="760" cy="300" r="62.32923416311522" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
                <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.4;0.5;1" dur="40s" repeatCount="indefinite" />
                <animateTransform attributeName="transform" type="rotate" from="0 760 300" to="360 760 300" dur="10s" repeatCount="indefinite" />
             </circle>
@@ -397,8 +395,8 @@
                   dur="17.857142857142858s" 
                   repeatCount="indefinite" 
               />
-              <text x="760" y="364.8237947506105" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
-                sameer-weds-nihala
+              <text x="760" y="367.3292341631152" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
+                shabin-weds-sana
               </text>
             </g>
           </g>
@@ -406,12 +404,12 @@
       </a>
     
 
-      <!-- Planet: Zabnix -->
-      <a href="https://github.com/frpboy/Zabnix" target="_blank" style="cursor: pointer;">
+      <!-- Planet: sameer-weds-nihala -->
+      <a href="https://github.com/frpboy/sameer-weds-nihala" target="_blank" style="cursor: pointer;">
         <defs>
           <radialGradient id="planetGrad-5" cx="30%" cy="30%" r="70%">
-            <stop offset="0%" stop-color="#E34F26" stop-opacity="1" />
-            <stop offset="50%" stop-color="#E34F26" stop-opacity="0.8" />
+            <stop offset="0%" stop-color="#3178C6" stop-opacity="1" />
+            <stop offset="50%" stop-color="#3178C6" stop-opacity="0.8" />
             <stop offset="100%" stop-color="#000" stop-opacity="1" />
           </radialGradient>
         </defs>
@@ -431,26 +429,28 @@
             />
             
             <!-- Planet Body (3D Effect) -->
-            <circle cx="820" cy="300" r="43.942123462609004" fill="url(#planetGrad-5)">
-               <title>Zabnix (HTML)</title>
+            <circle cx="820" cy="300" r="49.823794750610475" fill="url(#planetGrad-5)">
+               <title>sameer-weds-nihala (TypeScript)</title>
             </circle>
             
             <!-- Inner Rim Light (Atmosphere) -->
-            <circle cx="820" cy="300" r="43.942123462609004" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3">
+            <circle cx="820" cy="300" r="49.823794750610475" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3">
             </circle>
             
             <!-- Texture/Overlay -->
             
             
             
+               <path d="M815 295 L825 305 M822 292 L818 302" stroke="rgba(0,0,0,0.3)" stroke-width="1" />
+            
             
             <!-- Mood Glow -->
-            <circle cx="820" cy="300" r="52.730548155130805" fill="none" stroke="#FF00E6" stroke-width="1" opacity="0.4" filter="url(#glow)">
+            <circle cx="820" cy="300" r="59.788553700732564" fill="none" stroke="#00FF94" stroke-width="1" opacity="0.4" filter="url(#glow)">
               <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite" />
             </circle>
 
             <!-- Active Indicator (Ring when HUD is showing this planet) -->
-            <circle cx="820" cy="300" r="53.942123462609004" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
+            <circle cx="820" cy="300" r="59.823794750610475" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
                <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.5;0.6;1" dur="40s" repeatCount="indefinite" />
                <animateTransform attributeName="transform" type="rotate" from="0 820 300" to="360 820 300" dur="10s" repeatCount="indefinite" />
             </circle>
@@ -466,8 +466,8 @@
                   dur="16.129032258064516s" 
                   repeatCount="indefinite" 
               />
-              <text x="820" y="358.942123462609" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
-                Zabnix
+              <text x="820" y="364.8237947506105" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
+                sameer-weds-nihala
               </text>
             </g>
           </g>
@@ -475,8 +475,8 @@
       </a>
     
 
-      <!-- Planet: NahThatsFake -->
-      <a href="https://github.com/frpboy/NahThatsFake" target="_blank" style="cursor: pointer;">
+      <!-- Planet: Zabnix -->
+      <a href="https://github.com/frpboy/Zabnix" target="_blank" style="cursor: pointer;">
         <defs>
           <radialGradient id="planetGrad-6" cx="30%" cy="30%" r="70%">
             <stop offset="0%" stop-color="#E34F26" stop-opacity="1" />
@@ -500,12 +500,12 @@
             />
             
             <!-- Planet Body (3D Effect) -->
-            <circle cx="880" cy="300" r="39.84819555539845" fill="url(#planetGrad-6)">
-               <title>NahThatsFake (HTML)</title>
+            <circle cx="880" cy="300" r="43.942123462609004" fill="url(#planetGrad-6)">
+               <title>Zabnix (HTML)</title>
             </circle>
             
             <!-- Inner Rim Light (Atmosphere) -->
-            <circle cx="880" cy="300" r="39.84819555539845" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3">
+            <circle cx="880" cy="300" r="43.942123462609004" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3">
             </circle>
             
             <!-- Texture/Overlay -->
@@ -514,12 +514,12 @@
             
             
             <!-- Mood Glow -->
-            <circle cx="880" cy="300" r="47.817834666478134" fill="none" stroke="#FF00E6" stroke-width="1" opacity="0.4" filter="url(#glow)">
+            <circle cx="880" cy="300" r="52.730548155130805" fill="none" stroke="#FF00E6" stroke-width="1" opacity="0.4" filter="url(#glow)">
               <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite" />
             </circle>
 
             <!-- Active Indicator (Ring when HUD is showing this planet) -->
-            <circle cx="880" cy="300" r="49.84819555539845" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
+            <circle cx="880" cy="300" r="53.942123462609004" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
                <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.6;0.7;1" dur="40s" repeatCount="indefinite" />
                <animateTransform attributeName="transform" type="rotate" from="0 880 300" to="360 880 300" dur="10s" repeatCount="indefinite" />
             </circle>
@@ -535,8 +535,8 @@
                   dur="14.705882352941176s" 
                   repeatCount="indefinite" 
               />
-              <text x="880" y="354.84819555539843" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
-                NahThatsFake
+              <text x="880" y="358.942123462609" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
+                Zabnix
               </text>
             </g>
           </g>
@@ -765,7 +765,7 @@
         <!-- Panel Content -->
         <text x="20" y="520" fill="#FF00E6" font-family="Courier New, monospace" font-size="16" font-weight="bold">> frpboy</text>
         <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: N/A | STARS: 1</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 1071kb</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 1091kb</text>
         
         <!-- Progress Bar -->
         <rect x="20" y="565" width="0" height="2" fill="#FF00E6">
@@ -779,12 +779,12 @@
         <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.1; 0.101; 0.199; 0.2; 1" dur="40s" repeatCount="indefinite" />
 
         <!-- Panel Content -->
-        <text x="20" y="520" fill="#00FF94" font-family="Courier New, monospace" font-size="16" font-weight="bold">> repo-verse</text>
-        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: TypeScript | STARS: 0</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 332kb</text>
+        <text x="20" y="520" fill="#FF00E6" font-family="Courier New, monospace" font-size="16" font-weight="bold">> NahThatsFake</text>
+        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: HTML | STARS: 0</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 748kb</text>
         
         <!-- Progress Bar -->
-        <rect x="20" y="565" width="0" height="2" fill="#00FF94">
+        <rect x="20" y="565" width="0" height="2" fill="#FF00E6">
             <animate attributeName="width" values="0;200" begin="4s" dur="4s" fill="freeze" />
         </rect>
       </g>
@@ -795,9 +795,9 @@
         <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.2; 0.201; 0.299; 0.3; 1" dur="40s" repeatCount="indefinite" />
 
         <!-- Panel Content -->
-        <text x="20" y="520" fill="#00FF94" font-family="Courier New, monospace" font-size="16" font-weight="bold">> sahakar-celebrations</text>
+        <text x="20" y="520" fill="#00FF94" font-family="Courier New, monospace" font-size="16" font-weight="bold">> repo-verse</text>
         <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: TypeScript | STARS: 0</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 32731kb</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 298kb</text>
         
         <!-- Progress Bar -->
         <rect x="20" y="565" width="0" height="2" fill="#00FF94">
@@ -811,9 +811,9 @@
         <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.3; 0.301; 0.399; 0.4; 1" dur="40s" repeatCount="indefinite" />
 
         <!-- Panel Content -->
-        <text x="20" y="520" fill="#00FF94" font-family="Courier New, monospace" font-size="16" font-weight="bold">> shabin-weds-sana</text>
+        <text x="20" y="520" fill="#00FF94" font-family="Courier New, monospace" font-size="16" font-weight="bold">> sahakar-celebrations</text>
         <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: TypeScript | STARS: 0</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 47878kb</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 32731kb</text>
         
         <!-- Progress Bar -->
         <rect x="20" y="565" width="0" height="2" fill="#00FF94">
@@ -827,9 +827,9 @@
         <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.4; 0.401; 0.499; 0.5; 1" dur="40s" repeatCount="indefinite" />
 
         <!-- Panel Content -->
-        <text x="20" y="520" fill="#00FF94" font-family="Courier New, monospace" font-size="16" font-weight="bold">> sameer-weds-nihala</text>
+        <text x="20" y="520" fill="#00FF94" font-family="Courier New, monospace" font-size="16" font-weight="bold">> shabin-weds-sana</text>
         <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: TypeScript | STARS: 0</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 20770kb</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 47878kb</text>
         
         <!-- Progress Bar -->
         <rect x="20" y="565" width="0" height="2" fill="#00FF94">
@@ -843,12 +843,12 @@
         <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.5; 0.501; 0.599; 0.6; 1" dur="40s" repeatCount="indefinite" />
 
         <!-- Panel Content -->
-        <text x="20" y="520" fill="#FF00E6" font-family="Courier New, monospace" font-size="16" font-weight="bold">> Zabnix</text>
-        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: HTML | STARS: 0</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 2924kb</text>
+        <text x="20" y="520" fill="#00FF94" font-family="Courier New, monospace" font-size="16" font-weight="bold">> sameer-weds-nihala</text>
+        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: TypeScript | STARS: 0</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 20770kb</text>
         
         <!-- Progress Bar -->
-        <rect x="20" y="565" width="0" height="2" fill="#FF00E6">
+        <rect x="20" y="565" width="0" height="2" fill="#00FF94">
             <animate attributeName="width" values="0;200" begin="20s" dur="4s" fill="freeze" />
         </rect>
       </g>
@@ -859,9 +859,9 @@
         <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.6; 0.601; 0.699; 0.7; 1" dur="40s" repeatCount="indefinite" />
 
         <!-- Panel Content -->
-        <text x="20" y="520" fill="#FF00E6" font-family="Courier New, monospace" font-size="16" font-weight="bold">> NahThatsFake</text>
+        <text x="20" y="520" fill="#FF00E6" font-family="Courier New, monospace" font-size="16" font-weight="bold">> Zabnix</text>
         <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: HTML | STARS: 0</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 747kb</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 2924kb</text>
         
         <!-- Progress Bar -->
         <rect x="20" y="565" width="0" height="2" fill="#FF00E6">
