@@ -80,12 +80,12 @@
             />
             
             <!-- Planet Body (3D Effect) -->
-            <circle cx="520" cy="300" r="41.24007949976777" fill="url(#planetGrad-0)">
+            <circle cx="520" cy="300" r="41.27272946623995" fill="url(#planetGrad-0)">
                <title>frpboy (null)</title>
             </circle>
             
             <!-- Inner Rim Light (Atmosphere) -->
-            <circle cx="520" cy="300" r="41.24007949976777" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3">
+            <circle cx="520" cy="300" r="41.27272946623995" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3">
             </circle>
             
             <!-- Texture/Overlay -->
@@ -94,12 +94,12 @@
             
             
             <!-- Mood Glow -->
-            <circle cx="520" cy="300" r="49.488095399721324" fill="none" stroke="#FF00E6" stroke-width="1" opacity="0.4" filter="url(#glow)">
+            <circle cx="520" cy="300" r="49.52727535948794" fill="none" stroke="#FF00E6" stroke-width="1" opacity="0.4" filter="url(#glow)">
               <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite" />
             </circle>
 
             <!-- Active Indicator (Ring when HUD is showing this planet) -->
-            <circle cx="520" cy="300" r="51.24007949976777" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
+            <circle cx="520" cy="300" r="51.27272946623995" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
                <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0;0.1;1" dur="40s" repeatCount="indefinite" />
                <animateTransform attributeName="transform" type="rotate" from="0 520 300" to="360 520 300" dur="10s" repeatCount="indefinite" />
             </circle>
@@ -115,7 +115,7 @@
                   dur="31.25s" 
                   repeatCount="indefinite" 
               />
-              <text x="520" y="356.2400794997678" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
+              <text x="520" y="356.27272946624" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
                 frpboy
               </text>
             </g>
@@ -218,12 +218,12 @@
             />
             
             <!-- Planet Body (3D Effect) -->
-            <circle cx="640" cy="300" r="39.974033137612246" fill="url(#planetGrad-2)">
+            <circle cx="640" cy="300" r="39.96632105110294" fill="url(#planetGrad-2)">
                <title>NahThatsFake (HTML)</title>
             </circle>
             
             <!-- Inner Rim Light (Atmosphere) -->
-            <circle cx="640" cy="300" r="39.974033137612246" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3">
+            <circle cx="640" cy="300" r="39.96632105110294" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3">
             </circle>
             
             <!-- Texture/Overlay -->
@@ -232,12 +232,12 @@
             
             
             <!-- Mood Glow -->
-            <circle cx="640" cy="300" r="47.968839765134696" fill="none" stroke="#FF00E6" stroke-width="1" opacity="0.4" filter="url(#glow)">
+            <circle cx="640" cy="300" r="47.959585261323525" fill="none" stroke="#FF00E6" stroke-width="1" opacity="0.4" filter="url(#glow)">
               <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite" />
             </circle>
 
             <!-- Active Indicator (Ring when HUD is showing this planet) -->
-            <circle cx="640" cy="300" r="49.974033137612246" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
+            <circle cx="640" cy="300" r="49.96632105110294" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
                <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.3;1" dur="40s" repeatCount="indefinite" />
                <animateTransform attributeName="transform" type="rotate" from="0 640 300" to="360 640 300" dur="10s" repeatCount="indefinite" />
             </circle>
@@ -253,7 +253,7 @@
                   dur="22.727272727272727s" 
                   repeatCount="indefinite" 
               />
-              <text x="640" y="354.97403313761225" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
+              <text x="640" y="354.9663210511029" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
                 NahThatsFake
               </text>
             </g>
@@ -765,7 +765,7 @@
         <!-- Panel Content -->
         <text x="20" y="520" fill="#FF00E6" font-family="Courier New, monospace" font-size="16" font-weight="bold">> frpboy</text>
         <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: N/A | STARS: 1</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 1188kb</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 1201kb</text>
         
         <!-- Progress Bar -->
         <rect x="20" y="565" width="0" height="2" fill="#FF00E6">
@@ -797,7 +797,7 @@
         <!-- Panel Content -->
         <text x="20" y="520" fill="#FF00E6" font-family="Courier New, monospace" font-size="16" font-weight="bold">> NahThatsFake</text>
         <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: HTML | STARS: 0</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 779kb</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 777kb</text>
         
         <!-- Progress Bar -->
         <rect x="20" y="565" width="0" height="2" fill="#FF00E6">
